@@ -34,12 +34,12 @@ const NAV = [
 ];
 
 const SKILLS = [
-  { name: "HTML", value: 85 },
+  { name: "HTML", value: 90 },
   { name: "JavaScript", value: 72 },
   { name: "Python", value: 70 },
-  { name: "C++", value: 65 },
-  { name: "MySQL", value: 68 },
-  { name: "Chakra UI", value: 75 },
+  { name: "C++", value: 85 },
+  { name: "MySQL", value: 90 },
+  { name: "User Interface", value: 75 },
 ];
 
 const SERVICES = [
