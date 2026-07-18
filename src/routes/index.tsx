@@ -39,7 +39,6 @@ const SKILLS = [
   { name: "Python", value: 70 },
   { name: "C++", value: 85 },
   { name: "MySQL", value: 90 },
-  { name: "User Interface", value: 75 },
 ];
 
 const SERVICES = [
