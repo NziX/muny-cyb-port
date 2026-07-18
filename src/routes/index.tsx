@@ -45,7 +45,7 @@ const SKILLS = [
 const SERVICES = [
   { icon: Layout, title: "Frontend Web Development", desc: "Modern, accessible interfaces built with clean, semantic markup." },
   { icon: Smartphone, title: "Responsive Website Design", desc: "Mobile-first layouts that look great on every device." },
-  { icon: Code2, title: "UI Development with Chakra UI", desc: "Componentized interfaces with a polished, consistent look." },
+  { icon: Code2, title: "UI Development", desc: "Clean, componentized user interfaces with a polished, consistent look." },
   { icon: Database, title: "Database Design with MySQL", desc: "Well-structured schemas for reliable data-driven apps." },
   { icon: Terminal, title: "Python Programming Solutions", desc: "Scripts and beginner-friendly tools to solve real problems." },
   { icon: Sparkles, title: "Continuous Learning", desc: "Always exploring new tools and frameworks to grow as a developer." },
@@ -180,7 +180,7 @@ function Hero() {
             </a>
           </div>
           <div className="mt-8 flex items-center gap-4 text-muted-foreground">
-            <a href="mailto:munyansanga3rd@gmail.com" className="hover:text-primary transition" aria-label="Email"><Mail className="w-5 h-5" /></a>
+            <a href="mailto:dinoshakuru@gmail.com" className="hover:text-primary transition" aria-label="Email"><Mail className="w-5 h-5" /></a>
             <a href="tel:+250792457573" className="hover:text-primary transition" aria-label="Phone"><Phone className="w-5 h-5" /></a>
             <a href="#" className="hover:text-primary transition" aria-label="GitHub"><Github className="w-5 h-5" /></a>
             <a href="#" className="hover:text-primary transition" aria-label="LinkedIn"><Linkedin className="w-5 h-5" /></a>
@@ -388,7 +388,7 @@ function Contact() {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="space-y-4">
             <a
-              href="mailto:munyansanga3rd@gmail.com"
+              href="mailto:dinoshakuru@gmail.com"
               className="flex items-center gap-4 rounded-2xl border border-border bg-card/60 p-5 hover:border-primary/50 transition"
             >
               <div className="w-11 h-11 rounded-xl bg-gradient-primary grid place-items-center shadow-glow">
@@ -396,7 +396,7 @@ function Contact() {
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-                <div className="font-medium">munyansanga3rd@gmail.com</div>
+                <div className="font-medium">dinoshakuru@gmail.com</div>
               </div>
             </a>
             <a
@@ -434,7 +434,7 @@ function Contact() {
               const body = encodeURIComponent(
                 `From: ${data.get("name")} <${data.get("email")}>\n\n${data.get("message")}`,
               );
-              window.location.href = `mailto:munyansanga3rd@gmail.com?subject=${subject}&body=${body}`;
+              window.location.href = `mailto:dinoshakuru@gmail.com?subject=${subject}&body=${body}`;
             }}
             className="rounded-3xl border border-border bg-card/60 p-6 md:p-8 space-y-4 shadow-card-glow"
           >
@@ -497,7 +497,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div>© {new Date().getFullYear()} Dino Shakuru. All rights reserved.</div>
         <div className="flex items-center gap-4">
-          <a href="mailto:munyansanga3rd@gmail.com" className="hover:text-primary"><Mail className="w-4 h-4" /></a>
+          <a href="mailto:dinoshakuru@gmail.com" className="hover:text-primary"><Mail className="w-4 h-4" /></a>
           <a href="tel:+250792457573" className="hover:text-primary"><Phone className="w-4 h-4" /></a>
           <a href="#" className="hover:text-primary"><Github className="w-4 h-4" /></a>
           <a href="#" className="hover:text-primary"><Linkedin className="w-4 h-4" /></a>
