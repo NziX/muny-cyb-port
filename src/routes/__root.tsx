@@ -82,6 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Portfolio of Munyansanga Nziza Dino Shakuru — CS student at MKU building modern, responsive web applications.",
       },
       { name: "author", content: "Munyansanga Nziza Dino Shakuru" },
+      { name: "google-site-verification", content: "CxQraPuneZuEO193Va4YNqHJSFgMABss7oVaMikX3HY" },
       { property: "og:title", content: "Dino Shakuru — Computer Science Student & Aspiring Full Stack Developer" },
       {
         property: "og:description",
