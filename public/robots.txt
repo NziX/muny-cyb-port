@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muny-cyb-port.lovable.app/sitemap.xml
